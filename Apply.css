@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 100%;
+}
+
+.div1{
+    background-image: linear-gradient(to right,rgb(155, 155, 216),rgb(199, 113, 199));
+    height: 29rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.div2{
+    padding: 2rem;
+}
+
+.col{
+    font-size: .8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.col input{
+    box-shadow: 5px 5px 5px silver;
+    border: 1px solid silver;
+    border-radius: 2px;
+}
+
+.reset{
+    background-color: rgb(255, 248, 248);
+    border: 1px solid silver;
+    border-radius: 15px;
+    margin-right: 2rem;
+    padding: .3rem .7rem;
+}
+
+.submit{
+    background-color: rgb(255, 248, 248);
+    border: 1px solid silver;
+    border-radius: 15px;
+    padding: .3rem .7rem;
+}
